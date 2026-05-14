@@ -39,9 +39,6 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({ error: "Internal server error" });
 });
 
-const whatsappRoutes = require("./routes/whatsapp");
-app.use("/whatsapp", whatsappRoutes);
-
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

@@ -75,6 +75,17 @@ whatsapp-crm/
 3. Register the ngrok URL + `/whatsapp/webhook` with Meta as your webhook URL
 4. Use your `META_VERIFY_TOKEN` in Meta app settings
 
+## Screenshots
+
+### Meta Developer App
+![Meta App](./screenshots/day1-meta-app.png)
+
+### Verified Webhook
+![Verified Webhook](./screenshots/day1-verified.png)
+
+### Incoming WhatsApp Message
+![Inbound Message](./screenshots/day1-inbound.png)
+
 ## Stack
 
 - **Runtime**: Node.js
